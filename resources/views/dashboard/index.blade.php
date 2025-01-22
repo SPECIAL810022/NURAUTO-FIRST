@@ -15,14 +15,11 @@
   
 <body>
 <!--sidebar-->
-<?php
-include('assets/componets/sidebar.php');
-?>
-<?php
-include('assets/componets/header.php');
-?>
-  <section class="home-section">
 
+@include('dashboard.sidebar')
+
+  <section class="home-section">
+    @include('dashboard.header')
     <div class="home-content">
       <div class="overview-boxes">
         <div class="brand box">
