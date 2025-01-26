@@ -9,6 +9,8 @@ class broker extends Model
     //
     protected $table = 'brokers';
 
+
+    protected $primaryKey = 'broker_id';
     // Specify the fillable fields
     protected $fillable = [
         'name',

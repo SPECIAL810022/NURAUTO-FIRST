@@ -22,7 +22,7 @@
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body accordion_body">  <ul class="sub_menu">
-              <li><a href="{{ route('broker.all') }}">  <i class='bx bxs-user'></i>
+              <li><a href="{{ route('broker.index') }}">  <i class='bx bxs-user'></i>
                 <span class="link_name">All Brokers</span></a></li>
               
             </ul></div>
